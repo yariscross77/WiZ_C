@@ -23,6 +23,11 @@ namespace MathSet_Recycling_Admin.Controllers
             return View();
         }
 
+        public IActionResult Contributors()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
